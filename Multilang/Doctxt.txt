@@ -1,0 +1,5 @@
+﻿insert to DB:
+
+string lang = CultureInfo.CurrentCulture.Name;
+LangId = _context.Languages.First(l=>l.LanguagesTitle == lang).Lang_Id;
+------------------
